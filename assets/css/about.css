@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@12,100..1000&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(about_back.jpg);
+}
+.one{
+    padding: 17px;
+    margin: 0;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    top: 0;
+}
+
+.nav {
+    
+    display: flex;
+    margin: 10px 30px;
+    padding: 15px;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: rgba(240, 235, 231,0.900);
+    font-family: "Montserrat", sans-serif;
+    position: fixed;
+    width: 90vw;
+}
+
+.base{
+    /* border: 2px solid; */
+    
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.block{
+    background-color: rgb(192, 168, 139);
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.two{
+    display: flex
+    ;
+        justify-content: space-around;
+        align-self: start;
+        margin: 50px 47px;
+}
+.three
+{
+    display: flex;
+        justify-content: space-around;
+        align-self: start;;
+        margin: 80px 10px 5px 10px;
+        
+}
+
+
+.about_three_right{
+    border: 2px solid;
+    align-items: center;
+    justify-content: center;
+}
+.about_me{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 130px;
+}
+
+.education{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+
+}
+.line_seg{
+    width: 100vw;
+    height: 2px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.circle_img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 3px 5px;
+}
+.hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+}
+.hobbie_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.interests{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.interest_para{
+    margin: 20px 40px;
+    font-family:"Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+

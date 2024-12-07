@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggler Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .toggler {
+            position: relative;
+            width: 60px;
+            height: 30px;
+            background-color: #ccc;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggler .toggle-button {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 24px;
+            height: 24px;
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .toggler.active {
+            background-color: #4caf50;
+        }
+
+        .toggler.active .toggle-button {
+            transform: translateX(30px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="toggler" id="toggler">
+        <div class="toggle-button"></div>
+    </div>
+
+    <script>
+        const toggler = document.getElementById('toggler');
+
+        toggler.addEventListener('click', () => {
+            toggler.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
