@@ -29,3 +29,10 @@ The following command you need to use in order:
 3. git push
 
 CONCEPT: 04 - TERMINAL
+
+
+CONCEPT: 05-
+
+div.box{Item-$}*10 - thos gives 10 div with class box and each box will have Item-(no.) written in it.
+
+CONCEPT: 06
