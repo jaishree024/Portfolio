@@ -4,33 +4,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@12,100..1000&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
     .one{
-        padding: 17px;
+    padding: 17px;
     margin: 0;
-    height: 520px;
-    background-image: url(home_background.jpg);
-background-size: cover;
+    height: 480px;
+    background-image: url(../imgs/index/home_background.jpg);
+    background-size: cover;
     position: relative;
-    }
-    .navigation{
-        display: flex;
-        justify-content: center;
+    min-width: 100%;
     }
 
-.nav {
-    display: flex;
-    margin: 10px;
-    padding: 15px;
-    justify-content: space-around;
-    border-radius: 30px;
-    background-color: rgba(240, 235, 231, 0.701);
-    font-family: "Montserrat", sans-serif;
-    position: fixed;
-    width: 90vw;
     
-}
 
 .year{
     rotate: 90;
