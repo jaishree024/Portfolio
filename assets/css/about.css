@@ -54,6 +54,9 @@ body{
         align-self: start;
         margin: 50px 47px;
 }
+.about_two_right{
+    max-width: 41%;
+}
 .three
 {
     display: flex;
@@ -68,6 +71,7 @@ body{
     border: 2px solid;
     align-items: center;
     justify-content: center;
+    
 }
 .about_me{
     font-family: "Bebas Neue", sans-serif;

@@ -11,8 +11,12 @@
     margin: 0;
     height: 520px;
     background-image: url(home_background.jpg);
-
+background-size: cover;
     position: relative;
+    }
+    .navigation{
+        display: flex;
+        justify-content: center;
     }
 
 .nav {
