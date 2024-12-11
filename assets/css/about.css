@@ -31,7 +31,7 @@ body{
 }
 .block{
     background-color: rgb(192, 168, 139);
-    height: 435px;
+    height: 490px;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -42,15 +42,17 @@ body{
         justify-content: space-around;
         align-self: start;
         margin: 50px 47px;
-        height: 320px;
+        height: 350px;
+}
+.my_about_img img{
+    width: 340px;
+    height: 340px;
+    border-radius: 190px;
 }
 .about_two_right{
     max-width: 61%;
 }
-.about_two_left{
-    width: 500px;
-    border-radius: 500px;
-}
+
 .three
 {
     display: flex;
@@ -163,6 +165,20 @@ body{
 }
     
 }
+@media only screen and (max-width: 730px) {
+    .block{
+        height: 760px;
+    }
+    .two{
+        height: 610px;
+    }
+    .my_about_img img{
+        width: 305px;
+        height: 305px;
+        border-radius: 190px;
+    
+}
+}
 @media only screen and (max-width: 560px) {
     .about_me{
         font-size: 120px;
@@ -175,6 +191,7 @@ body{
         
 
     }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -183,7 +200,7 @@ body{
         
     }
 .about_me_intro{
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .education_text{
@@ -210,7 +227,9 @@ body{
         font-size: 13px;
     }
     .aboutimg img{
-        width: 320px;
+        width: 270px;
+        height: 270px;
+
     }
     .interests{
         font-size: 38px;

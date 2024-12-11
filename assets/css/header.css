@@ -23,7 +23,7 @@
     margin: 10px 10px;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(240, 235, 231,0.600);
+    background-color: rgba(240, 235, 231);
     font-family: "Montserrat", sans-serif;
     min-width: 90%;
     height: 40px;
@@ -86,6 +86,7 @@
         height: 172px;
         transition: all 0.1s ease-in;
         box-shadow: 2px;
+        position: absolute;
         
         
     }
