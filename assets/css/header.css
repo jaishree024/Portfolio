@@ -96,7 +96,7 @@
     }
     .v-respc{
         opacity: 100;
-        transition: all 0.1s ease-in;
+        transition: all 0.2s ease-in-out;
     }
 
     .h-nav-resp{
