@@ -60,6 +60,7 @@
     top: 21px;
     right: 30px;
     z-index: -1;
+    opacity: 0;
 
 }
 
@@ -82,19 +83,22 @@
         margin: 10px 1px;
         background-color: rgba(240, 235, 231,0.600);
         height: 172px;
+        transition: all 0.1s ease-in;
         
         
     }
     .v-resp{
         opacity: 0;
+        
     }
     .v-respc{
         opacity: 100;
+        transition: all 0.1s ease-in;
     }
 
     .h-nav-resp{
         height: 174px;
-        transition: all 0.2s ease-in-out;
+        
     }
     
 
