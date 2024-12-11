@@ -23,29 +23,44 @@
     margin: 10px 10px;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(240, 235, 231,0.900);
+    background-color: rgba(240, 235, 231,0.600);
     font-family: "Montserrat", sans-serif;
     min-width: 90%;
+    height: 40px;
+    
 }
 .nav ul li a{
     text-decoration: none;
     color: black;
     cursor: pointer;
+    
 }
 .line{
-    width: 20px;
-    height: 3px;
+    width: 25px;
+    height: 4px;
     margin: 2px;
-    background-color: black;
+    background-color: rgb(56, 56, 56);
+    border-radius: 2px;
     
 
 }
 .hamburger{
     position: fixed;
-    top: 20px;
-    right: 19px;
+    top: 35px;
+    right: 40px;
     display: none;
     cursor: pointer;
+}
+.circle{
+    width: 49px;
+    height: 49px;
+    border-radius: 32px;
+    background-color: rgba(240, 235, 231, 0.600);
+    position: fixed;
+    top: 21px;
+    right: 30px;
+    z-index: -1;
+
 }
 
 
@@ -58,25 +73,28 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
+        transition: all 0.7 ease-in-out;
     }
     .nav ul li{
         padding:7px;
     }
     .nav{
         margin: 10px 1px;
-        background-color: rgba(240, 235, 231,0.900);
-        height: 72px;
+        background-color: rgba(240, 235, 231,0.600);
+        height: 172px;
+        
         
     }
     .v-resp{
         opacity: 0;
     }
+    .v-respc{
+        opacity: 100;
+    }
 
     .h-nav-resp{
         height: 174px;
-    }
-    .nav-box{
-        
+        transition: all 0.2s ease-in-out;
     }
     
 
