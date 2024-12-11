@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -30,7 +31,7 @@ body{
 }
 .block{
     background-color: rgb(192, 168, 139);
-    height: 400px;
+    height: 435px;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -41,16 +42,17 @@ body{
         justify-content: space-around;
         align-self: start;
         margin: 50px 47px;
+        height: 320px;
 }
 .about_two_right{
-    max-width: 41%;
+    max-width: 61%;
 }
 .three
 {
     display: flex;
         justify-content: space-around;
         align-self: start;;
-        margin: 80px 10px 5px 10px;
+        margin: 73px 10px 25px 10px;
         
 }
 
@@ -67,6 +69,11 @@ body{
     font-style: normal;
     font-size: 130px;
 }
+.about_me_intro{
+    font-family:"Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
 
 .education{
     font-family: "Bebas Neue", sans-serif;
@@ -75,11 +82,10 @@ body{
     font-size: 50px;
 
 }
-.line_seg{
-    width: 100vw;
-    height: 2px;
-    background-color: aqua;
-    margin: 20px;
+.education_text{
+    font-family:"Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .circle_img{
@@ -119,7 +125,84 @@ body{
     font-weight: 300;
     padding: 10px;
 }
+.four{
+    margin: 20px;
+}
 
+@media only screen and (max-width:1300px) {
+    .about_two_right{
+        max-width: 55%;
+    }
+
+    
+}
+
+@media only screen and (max-width:1120px) {
+    .two{
+        flex-direction: column;
+        align-items: center;
+        height: 590px;
+
+    }
+    .about_two_right{
+        text-align: center;
+        max-width: 90%;
+    }
+.block{
+    height: 735px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+}
+@media only screen and (max-width: 560px) {
+    .about_me{
+        font-size: 120px;
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about_me{
+        font-size: 100px;
+        
+    }
+.about_me_intro{
+    font-size: 15px;
+}
+
+.education_text{
+    font-size: 15px;
+
+}
+.education{
+    font-size: 45px;
+}
+
+}
+
+@media only screen and (max-width:435px) {
+    .aboutimg{
+        /* height: 20px; */
+    }
+    .about_me{
+        font-size: 80px;
+    }
+    .about_me_intro{
+        font-size: 13px;
+    }
+    .education{
+        font-size: 38px;
+    }
+    .education_text{
+        font-size: 13px;
+    }
+    
+}
 
 
 
