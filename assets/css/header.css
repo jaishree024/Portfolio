@@ -27,6 +27,7 @@
     font-family: "Montserrat", sans-serif;
     min-width: 90%;
     height: 40px;
+    position: fixed;
     
 }
 .nav ul li a{
@@ -45,7 +46,7 @@
 
 }
 .hamburger{
-    position: fixed;
+    position: absolute;
     top: 35px;
     right: 40px;
     display: none;
@@ -56,7 +57,7 @@
     height: 49px;
     border-radius: 32px;
     background-color: rgba(240, 235, 231, 0.600);
-    position: fixed;
+    position: absolute;
     top: 21px;
     right: 30px;
     z-index: -1;
@@ -81,9 +82,10 @@
     }
     .nav{
         margin: 10px 1px;
-        background-color: rgba(240, 235, 231,0.600);
+        background-color: rgba(240, 235, 231);
         height: 172px;
         transition: all 0.1s ease-in;
+        box-shadow: 2px;
         
         
     }
