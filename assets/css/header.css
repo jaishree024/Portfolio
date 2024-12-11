@@ -4,6 +4,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .nav-box{
     display: flex;
@@ -19,7 +20,7 @@
     
 }
 .nav{
-    margin: 30px 20px;
+    margin: 10px 10px;
     padding: 10px;
     border-radius: 20px;
     background-color: rgba(240, 235, 231,0.900);
@@ -59,20 +60,23 @@
         padding: 10px;
     }
     .nav ul li{
-        padding: 5px;
+        padding:7px;
     }
     .nav{
         margin: 10px 1px;
+        background-color: rgba(240, 235, 231,0.900);
+        height: 72px;
+        
     }
     .v-resp{
         opacity: 0;
     }
 
     .h-nav-resp{
-        height: 72px;
+        height: 174px;
     }
     .nav-box{
-        background-color: rgba(240, 235, 231,0.900);
+        
     }
     
 
