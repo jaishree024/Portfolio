@@ -44,11 +44,18 @@ body{
         margin: 50px 47px;
         height: 350px;
 }
-.my_about_img img{
+.my_about_img{
+    position: relative;
     width: 340px;
     height: 340px;
     border-radius: 190px;
     object-fit: cover;
+    background-color: aqua;
+    overflow: hidden;
+    z-index: -1;
+}
+.my_about_img img{
+    transform: scale(0.6) translate(-733px, -1151px);
 }
 .about_two_right{
     max-width: 61%;
@@ -59,7 +66,7 @@ body{
     display: flex;
         justify-content: space-around;
         align-self: start;;
-        margin: 73px 10px 25px 10px;
+        margin: 70px 10px 25px 10px;
         
 }
 
@@ -102,6 +109,7 @@ body{
     border-radius: 100px;
     overflow: hidden;
     margin: 3px 5px;
+    background-color: rgba(245, 222, 179, 0.703);
 }
 .hobbies{
     display: flex;
@@ -113,6 +121,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+.dancing img{
+    transform: translateX(-88px) scale(0.6) translateY(-77px);
+}
+.reading img{
+    transform: scale(0.6) translate(-167px, -57px);
+}
+.travelling img{
+    transform: scale(0.5) translate(-191px, -68px);
 
 }
 .interests{
@@ -173,11 +191,14 @@ body{
     .two{
         height: 730px;
     }
-    .my_about_img img{
+    .my_about_img{
         width: 305px;
         height: 305px;
         border-radius: 190px;
     
+}
+.my_about_img img{
+    transform: scale(0.6) translate(-796px, -1210px)
 }
 }
 @media only screen and (max-width: 560px) {
@@ -214,6 +235,9 @@ body{
 .interests{
     font-size: 45px;
 }
+.my_about_img img{
+    transform: scale(0.6) translate(-772px, -1210px)
+}
 
 }
 
@@ -227,10 +251,13 @@ body{
     .education_text{
         font-size: 13px;
     }
-    .aboutimg img{
+    .aboutimgs img{
         width: 270px;
         height: 270px;
 
+    }
+    .my_about_img img{
+        /* transform: scale(0.6) translate(-796px, -1210px) */
     }
     .interests{
         font-size: 38px;
