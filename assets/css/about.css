@@ -48,6 +48,7 @@ body{
     width: 340px;
     height: 340px;
     border-radius: 190px;
+    object-fit: cover;
 }
 .about_two_right{
     max-width: 61%;
