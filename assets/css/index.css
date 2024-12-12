@@ -54,14 +54,14 @@
 .two_right_block{
     font-family:"Montserrat", sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 350;
     padding: 10px;
 }
 
 .two_right_para{
     font-family:"Montserrat", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 400;
     margin-bottom: 20px;
     gap: 10px;
 }

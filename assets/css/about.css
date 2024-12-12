@@ -78,7 +78,7 @@ body{
 .about_me_intro{
     font-family:"Montserrat", sans-serif;
     font-size: 17px;
-    font-weight: 300;
+    font-weight:350;
 }
 
 .education{
@@ -147,7 +147,7 @@ body{
     .two{
         flex-direction: column;
         align-items: center;
-        height: 590px;
+        height: 650px;
 
     }
     .about_two_right{
@@ -155,7 +155,7 @@ body{
         max-width: 100%;
     }
 .block{
-    height: 735px;
+    height: 800px;
 }
 .three{
     display: flex;
@@ -167,10 +167,10 @@ body{
 }
 @media only screen and (max-width: 730px) {
     .block{
-        height: 760px;
+        height: 885px;
     }
     .two{
-        height: 610px;
+        height: 730px;
     }
     .my_about_img img{
         width: 305px;
@@ -194,7 +194,7 @@ body{
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 510px) {
     .about_me{
         font-size: 100px;
         
@@ -244,6 +244,12 @@ body{
         width: 100px;
         border-radius: 100px;
         margin-top: 15px;
+    }
+    .about_me_intro{
+        font-size: 15px;
+    }
+    .two{
+        height: 750px;
     }
     
 }
