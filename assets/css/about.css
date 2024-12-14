@@ -230,7 +230,7 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
 
     }
     .reading img {
-        transform: scale(0.5) translate(-223px, -88px);
+        transform: scale(0.6) translate(-171px, -60px);
     }
     .coding img
         {
@@ -239,8 +239,8 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
     .dancing img {
             transform: translateX(-99px) scale(0.6) translateY(-81px);
         }
-    .travelling img {
-            transform: scale(0.4) translate(-245px, -109px);
+        .travelling img {
+            transform: scale(0.6) translate(-174px, -60px);
         }
     
 
@@ -311,6 +311,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
     }
     .two{
         height: 750px;
+    }
+    .reading img {
+        transform: scale(0.6) translate(-171px, -66px);
     }
     
 }
