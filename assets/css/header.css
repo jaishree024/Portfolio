@@ -65,6 +65,15 @@
     opacity: 0;
 
 }
+.year{
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 454px;
+    left: -80px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+
+}
 
 
 @media only screen and (max-width:600px) {

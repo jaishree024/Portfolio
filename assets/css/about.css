@@ -103,10 +103,10 @@ body{
 }
 
 .circle_img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 1px solid wheat;
-    border-radius: 100px;
+    border-radius: 50%;
     overflow: hidden;
     margin: 3px 5px;
     background-color: rgba(245, 222, 179, 0.703);
@@ -124,13 +124,13 @@ body{
 
 }
 .dancing img{
-    transform: translateX(-88px) scale(0.6) translateY(-77px);
+    transform: translateX(-61px) scale(0.8) translateY(-26px);
 }
-.reading img{
-    transform: scale(0.6) translate(-167px, -57px);
+.reading img {
+    transform: translate(-88px, -17px);
 }
 .travelling img{
-    transform: scale(0.5) translate(-191px, -68px);
+    transform: scale(0.9) translate(-86px, -12px);
 
 }
 .interests{
@@ -189,7 +189,7 @@ body{
         height: 885px;
     }
     .two{
-        height: 730px;
+        height: 760px;
     }
     .my_about_img{
         width: 305px;
@@ -197,8 +197,24 @@ body{
         border-radius: 190px;
     
 }
+.circle_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
 .my_about_img img{
-    transform: scale(0.6) translate(-796px, -1210px)
+    transform: scale(0.6) translate(-766px, -1210px)
+}
+.dancing img{
+transform: translateX(-89px) scale(0.6) translateY(-64px)
+}
+
+.reading img {
+    transform: scale(0.6) translate(-157px, -56px);
+}
+.travelling img {
+    transform: scale(0.6) translate(-148px, -58px);
 }
 }
 @media only screen and (max-width: 560px) {
@@ -213,6 +229,20 @@ body{
         
 
     }
+    .reading img {
+        transform: scale(0.5) translate(-223px, -88px);
+    }
+    .coding img
+        {
+            transform: scale(0.7) translate(-86px, -41px);
+        }
+    .dancing img {
+            transform: translateX(-99px) scale(0.6) translateY(-81px);
+        }
+    .travelling img {
+            transform: scale(0.4) translate(-245px, -109px);
+        }
+    
 
 }
 
@@ -238,6 +268,9 @@ body{
 .my_about_img img{
     transform: scale(0.6) translate(-772px, -1210px)
 }
+.reading img {
+        transform: scale(0.5) translate(-223px, -88px);
+    }
 
 }
 
