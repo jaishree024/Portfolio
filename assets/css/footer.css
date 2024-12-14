@@ -12,7 +12,9 @@
     flex-direction: row;
 }
 .footer_block{
-    background-color: rgb(192, 168, 139);
+    background-color: rgb(87 69 47);
+    color: wheat;
+    font-weight: 500;
     margin-top: 35px;
     display: flex;
     flex-direction: row;

@@ -11,8 +11,9 @@ body{
     box-sizing: border-box;
 }
 .two{
-    height: 1000px;
+    height: 700px;
     margin: 100px 50px;
+    
 }
 .head{
     text-align: center;
@@ -22,17 +23,20 @@ body{
         font-size: 110px;
         color: rgb(65, 52, 38);
 }
+.two_content{
+    
+}
 
 .message{
     width: 980px;
     border: 1px solid rgb(65, 52, 38);
-    padding: 20px 50px 30px 281px;
+    padding: 20px 50px 55px 281px;
     position: absolute;
-    left: 432px;
-    margin-top: 50px;
+    left: 25%;
+    margin-top: 30px;
     z-index: -1;
     background-color: rgba(245, 222, 179, 0.08);
-
+    box-shadow: 20px 8px 20px 12px rgba(0, 0, 0, 0.1);
 }
 .info{
     display: flex;
@@ -71,14 +75,48 @@ body{
 .button button{
     padding: 9px 30px;
     border: none;
-    background-color:rgb(110, 91, 68);
+    background-color:rgb(87 69 47);
     color: wheat;
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 450;
     border-radius: 5px;
-}
-.button{
     cursor: pointer;
+}
+
+.contact_info{
+    height: 402px;
+    width: 381px;
+    background-color: rgb(87 69 47);
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    box-shadow: inset;
+    box-shadow: 5px 4px 18px 11px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.symbol_name{
+    font-family: 'Montserrat';
+    color: wheat;
+}
+.contact{
+    font-family: 'Montserrat';
+    color: wheat;
+    font-size: 30px;
+    margin-bottom: 20px;
 
 }
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.contact_mediums{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -29,6 +29,7 @@
     height: 40px;
     position: fixed;
     top: 18px;
+    box-shadow: 5px 4px 18px 11px rgba(0, 0, 0, 0.1);
     
 }
 .nav ul li a{
