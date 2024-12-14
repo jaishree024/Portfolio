@@ -2,6 +2,10 @@
     width: 46px;
     cursor: pointer;
 }
+.icon_img a img:hover{
+    transform: scale(1.2);
+    transition:transform 7.6 ease;
+}
 
 .icon{
     display: flex;

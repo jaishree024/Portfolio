@@ -35,7 +35,12 @@
     text-decoration: none;
     color: black;
     cursor: pointer;
+    transform: scale(1);
     
+}
+.nav ul li:hover{
+    transition: transform 0.3 ease-in-out;
+    transform: scale(1.1);
 }
 .line{
     width: 25px;
