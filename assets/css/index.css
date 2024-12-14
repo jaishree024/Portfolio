@@ -12,7 +12,7 @@
         padding: 17px 1px;
         margin: 0;
         height: 480px;
-        background-image: url(../imgs/index/home_background.jpg);
+        background-image: url(../imgs/index/s2.jpg);
         background-size: cover;
         position: relative;
         min-width: 100%;
@@ -37,10 +37,11 @@
     font-weight: 1000;
     font-style: normal;
     font-size: 190px;
+    color: rgb(50, 38, 24);
 }
 
 .two_right_block{
-    border: 2px solid;
+    border: 2px solid rgb(50, 38, 24);;
 }
 
 .two_right{
@@ -49,6 +50,7 @@
     align-items: initial;
     font-size: 24px;
     align-content: space-around;
+    color: rgb(50, 38, 24);
 }
 
 .two_right_block{
@@ -56,6 +58,7 @@
     font-size: 15px;
     font-weight: 350;
     padding: 10px;
+    color: rgb(50, 38, 24);
 }
 
 .two_right_para{
@@ -64,6 +67,7 @@
     font-weight: 400;
     margin-bottom: 20px;
     gap: 10px;
+    color: rgb(50, 38, 24);
 }
 
 

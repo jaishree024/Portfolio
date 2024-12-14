@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@12,100..1000&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url(../imgs/contact/sc1.jpg);
+    background-size:cover
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.two{
+    height: 1000px;
+    margin: 100px 50px;
+}
+.head{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+        font-size: 110px;
+        color: rgb(65, 52, 38);
+}
+
+.message{
+    width: 980px;
+    border: 1px solid rgb(65, 52, 38);
+    padding: 20px 50px 30px 281px;
+    position: absolute;
+    left: 432px;
+    margin-top: 50px;
+    z-index: -1;
+    background-color: rgba(245, 222, 179, 0.08);
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.name{
+    font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight: 650;
+    color: rgb(120, 100, 77);
+}
+.send_message{
+    margin: 30px 0px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(65, 52, 38);
+}
+.input input
+    {
+        border: none;
+        background: none;
+        border-bottom: 1px solid rgb(74, 59, 43);
+        width: 300px;
+        margin: 3px 0px 37px 0px;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        padding-left: 3px;
+    }
+.msg input{
+    padding-bottom: 57px;
+    width: 645px;
+}
+
+.button button{
+    padding: 9px 30px;
+    border: none;
+    background-color:rgb(110, 91, 68);
+    color: wheat;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 450;
+    border-radius: 5px;
+}
+.button{
+    cursor: pointer;
+
+}

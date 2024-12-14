@@ -33,7 +33,8 @@
 }
 .nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(50, 38, 24);
+    font-weight: 450;
     cursor: pointer;
     transform: scale(1);
     

@@ -82,11 +82,13 @@ body{
     font-weight: 1000;
     font-style: normal;
     font-size: 130px;
+    color: rgb(50, 38, 24);
 }
 .about_me_intro{
     font-family:"Montserrat", sans-serif;
     font-size: 17px;
     font-weight:350;
+    color: rgb(50, 38, 24);
 }
 
 .education{
@@ -94,12 +96,14 @@ body{
     font-weight: 1000;
     font-style: normal;
     font-size: 50px;
+    color: rgb(50, 38, 24);
 
 }
 .education_text{
     font-family:"Montserrat", sans-serif;
     font-size: 17px;
     font-weight: 300;
+    color: rgb(50, 38, 24);
 }
 
 .circle_img{
@@ -141,6 +145,7 @@ body{
     font-weight: 1000;
     font-style: normal;
     font-size: 50px;
+    color: rgb(50, 38, 24);
 }
 
 .interest_para{
@@ -149,6 +154,7 @@ body{
     font-size: 17px;
     font-weight: 300;
     padding: 10px;
+    color: rgb(50, 38, 24);
 }
 .four{
     margin: 20px;

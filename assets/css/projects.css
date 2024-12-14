@@ -8,7 +8,7 @@
     /* background-image: url(OIP.jpg); */
 }
 body{
-    background-image: url(../imgs/index/projects_back1.jpg)
+    background-image: url(../imgs/projects/projects_bg.jpg)
 }
 
 
@@ -17,7 +17,8 @@ body{
         font-weight: 1000;
         font-style: normal;
         font-size: 150px;
-        margin: 42px 30px;
+        margin: 75px 30px -22px;
+        color: rgb(50, 38, 24);
     }
 
     .project_name_background{
@@ -44,7 +45,7 @@ body{
     @media only screen and (max-width:600px) {
         .projects{
             text-align: center;
-            margin: 35px 0px;
+            margin: 50px 0px -16px;
         }
         
     }
