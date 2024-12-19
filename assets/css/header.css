@@ -30,7 +30,7 @@
     position: fixed;
     top: 18px;
     box-shadow: 5px 4px 18px 11px rgba(0, 0, 0, 0.1);
-    
+    z-index: 2;
 }
 .nav ul li a{
     text-decoration: none;
@@ -75,7 +75,7 @@
 .year{
     transform: rotate(-90deg);
     position: fixed;
-    top: 454px;
+    top: 414px;
     left: -80px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;

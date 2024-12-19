@@ -64,7 +64,7 @@ body{
 .three
 {
     display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-self: start;;
         margin: 70px 10px 25px 10px;
         
@@ -95,8 +95,9 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 1000;
     font-style: normal;
-    font-size: 50px;
+    font-size: 55px;
     color: rgb(50, 38, 24);
+    text-align: center;
 
 }
 .education_text{
@@ -104,6 +105,7 @@ body{
     font-size: 17px;
     font-weight: 300;
     color: rgb(50, 38, 24);
+    
 }
 
 .circle_img{
@@ -160,9 +162,49 @@ body{
     margin: 20px;
 }
 
+.left_seg_circle{
+    border: 2px solid rgb(87 69 47);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.left_seg_line{
+    width: 2px;
+    height: 120px;
+    background-color: rgb(87 69 47);
+}
+.duration{
+    font-weight: 500;
+}
+.seg_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9px;
+}
+.seg_right{
+    margin-left: 10px;
+    text-align: left;
+
+}
+.segment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.institute{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 @media only screen and (max-width:1300px) {
     .about_two_right{
         max-width: 55%;
+    }
+    .left_seg_line{
+        height: 135px;        
     }
 
     
@@ -172,12 +214,12 @@ body{
     .two{
         flex-direction: column;
         align-items: center;
-        height: 650px;
+        height: 680px;
 
     }
     .about_two_right{
         text-align: center;
-        max-width: 100%;
+        max-width: 80%;
     }
 .block{
     height: 800px;
@@ -188,14 +230,40 @@ body{
     align-items: center;
 
 }
+.left_seg_line{
+    height: 115px;        
+}
+    
+}
+@media only screen and (max-width: 930px) {
+    .education_text{
+        font-size: 15px;
+    
+    }
+       
+}
+@media only screen and (max-width: 790px){
+    .block{
+        height:810px;
+    }
     
 }
 @media only screen and (max-width: 730px) {
+    .education_text{
+        font-size: 14px;
+    
+    }
+    .left_seg_line{
+        height: 130px;        
+    }
+    .about_two_right{
+        max-width: 85%;
+    }
     .block{
-        height: 885px;
+        height: 850px;
     }
     .two{
-        height: 760px;
+      height: 735px;
     }
     .my_about_img{
         width: 305px;
@@ -223,16 +291,18 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
     transform: scale(0.6) translate(-148px, -58px);
 }
 }
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 570px) {
+    .left_seg_line{
+        height: 150px;        
+    }
     .about_me{
-        font-size: 120px;
+        font-size: 110px;
         
     }
     .circle_img{
         height: 80px;
         width: 80px;
-        border-radius: 80px;
-        
+        border-radius: 80px;        
 
     }
     .reading img {
@@ -248,11 +318,17 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
         .travelling img {
             transform: scale(0.6) translate(-174px, -60px);
         }
+        .about_me_intro{
+            font-size: 17px;
+        }
     
 
 }
 
 @media only screen and (max-width: 510px) {
+    .institute{
+        font-size: 27px;
+    }
     .about_me{
         font-size: 100px;
         
@@ -277,10 +353,23 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
 .reading img {
         transform: scale(0.5) translate(-223px, -88px);
     }
+    .left_seg_line{
+        height: 155px;        
+    }
+    .about_two_right {
+        max-width: 100%;
+    }
+    .block{
+        height: 859px;
+    }
 
 }
 
 @media only screen and (max-width:435px) {
+    .institute{
+        font-size: 25px;
+    
+    }
     .about_me{
         font-size: 80px;
     }
