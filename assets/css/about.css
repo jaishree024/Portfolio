@@ -58,15 +58,15 @@ body{
     transform: scale(0.6) translate(-733px, -1151px);
 }
 .about_two_right{
-    max-width: 61%;
+    max-width: 55%;
 }
 
 .three
 {
     display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-self: start;;
-        margin: 70px 10px 25px 10px;
+        margin: 70px 40px 25px 40px;
         
 }
 
@@ -90,12 +90,16 @@ body{
     font-weight:350;
     color: rgb(50, 38, 24);
 }
+.aboutimgs img{
+    width: 550px;
+    margin-top: 115px;
+}
 
 .education{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 1000;
     font-style: normal;
-    font-size: 55px;
+    font-size: 61px;
     color: rgb(50, 38, 24);
     text-align: center;
 
@@ -106,6 +110,9 @@ body{
     font-weight: 300;
     color: rgb(50, 38, 24);
     
+}
+.duration{
+    margin: 5px;
 }
 
 .circle_img{
@@ -199,12 +206,19 @@ body{
     font-weight: 600;
 }
 
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:1330px) {
     .about_two_right{
         max-width: 55%;
     }
     .left_seg_line{
         height: 135px;        
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -100px;
+    
     }
 
     
@@ -224,12 +238,7 @@ body{
 .block{
     height: 800px;
 }
-.three{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 .left_seg_line{
     height: 115px;        
 }
@@ -240,11 +249,17 @@ body{
         font-size: 15px;
     
     }
+    .about_two_right{
+        max-width: 100%;
+    }
        
 }
 @media only screen and (max-width: 790px){
     .block{
         height:810px;
+    }
+    .about_two_right{
+        max-width: 100%;
     }
     
 }
@@ -321,6 +336,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
         .about_me_intro{
             font-size: 17px;
         }
+        .aboutimgs img{
+            width: 405px;
+        }
     
 
 }
@@ -342,7 +360,7 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
 
 }
 .education{
-    font-size: 45px;
+    font-size: 47px;
 }
 .interests{
     font-size: 45px;
@@ -374,14 +392,14 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
         font-size: 80px;
     }
     .education{
-        font-size: 38px;
+        font-size: 40px;
     }
     .education_text{
         font-size: 13px;
     }
     .aboutimgs img{
-        width: 270px;
-        height: 270px;
+        width: 300px;
+
 
     }
     .my_about_img img{
