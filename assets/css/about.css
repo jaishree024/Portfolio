@@ -93,6 +93,7 @@ body{
 .aboutimgs img{
     width: 550px;
     margin-top: 115px;
+    border-radius: 3%;
 }
 
 .education{
