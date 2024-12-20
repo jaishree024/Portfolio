@@ -22,25 +22,38 @@ body{
         font-style: normal;
         font-size: 110px;
         color: rgb(65, 52, 38);
+        margin-bottom: 11vh;
 }
 .two_content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position:static;
     
 }
 
 .message{
-    width: 980px;
+    max-width: 90%;
     border: 1px solid rgb(65, 52, 38);
-    padding: 20px 50px 55px 281px;
-    position: absolute;
-    left: 25%;
-    margin-top: 30px;
+    padding: 20px 50px 55px 275px;
     background-color: rgba(245, 222, 179, 0.08);
     box-shadow: 20px 8px 20px 12px rgba(0, 0, 0, 0.1);
 }
-.info{
+.info_name{
+    display: flex;
+    flex-direction: row;
+}
+.info_other{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 .name{
     font-size: 11px;
@@ -54,6 +67,7 @@ body{
     font-size: 30px;
     font-weight: 400;
     color: rgb(65, 52, 38);
+    position: relative;
 }
 .input input
     {
@@ -87,16 +101,13 @@ body{
     height: 402px;
     width: 381px;
     background-color: rgb(87 69 47);
-    position: absolute;
-    top: 47%;
-    left: 15%;
     box-shadow: inset;
     box-shadow: 5px 4px 18px 11px rgba(0, 0, 0, 0.1);
     z-index: 0;
     padding: 40px 30px;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    margin-right: -230px;
 }
 
 .symbol_name{
@@ -119,3 +130,88 @@ body{
     flex-direction: column;
 }
 
+@media only screen and (max-width:1175px) {
+    
+    .input input{
+        width: 200px;
+        font-size: 17px;
+        margin-right: 23px;
+    }
+    .message{
+        padding: 20px 50px 55px 261px;
+    }
+    .contact_info{
+        margin-right: -220px;
+    }
+    .msg input{
+        width:425px
+    }
+    
+}
+
+@media only screen and (max-width:890px) {
+    .two_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .message {
+        padding: 5px 30px 141px 30px;
+        max-width: 100%;
+    }
+    .contact_info{
+        margin-top: -105px;
+        width: 420px;
+        margin-right: 0%;
+        max-width: 85%;
+    }
+}
+@media only screen and (max-width:630px){
+    .input input{
+        width: 180px;
+        
+    }
+    .msg input{
+        width:375px;
+    }
+    .message {
+        padding: 5px 10px 141px 20px;
+        margin: -55px;
+    }
+    .contact_info{
+        max-width: 75%;
+        margin-top: -70px;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .input input{ 
+        width: 140px;
+        
+    }
+    .msg input{
+        width:310px;
+    }
+    .contact_info{
+        max-width: 79%;
+        
+    }
+    
+}
+@media only screen and (max-width:445px) {
+    .info_other{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .message {
+        padding: 5px 30px 141px 40px;
+        margin: -55px;
+        max-width: 340px;
+    }
+    .input input{
+        width: 90%;
+        font-size: 15px;
+    }
+}

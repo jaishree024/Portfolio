@@ -52,6 +52,8 @@
   }
   .active{
     transform: scale(1.1);
+    border-bottom: 2px solid rgb(50, 38, 24);
+    padding: 1px;
     
   }
   
@@ -60,7 +62,7 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -3px;
+    bottom: -2px;
     width: 100%;
     height: 2px;
     background: rgb(50, 38, 24);
@@ -70,8 +72,7 @@
 }
 
 
-.ac:hover::after,
-.ac:active::after
+.ac:hover::after
 {
     transform: scaleX(1);
   }
