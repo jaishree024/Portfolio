@@ -214,4 +214,10 @@ body{
         width: 90%;
         font-size: 15px;
     }
+    .send_message{
+        font-size: 25px;
+    }
+    .contact_info{
+        width: 90%;
+    }
 }
