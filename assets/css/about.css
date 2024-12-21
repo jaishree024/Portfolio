@@ -44,6 +44,12 @@ body{
         margin: 50px 47px;
         height: 350px;
 }
+.about_two_right{
+    margin-left: 15px;
+}
+.me{
+    max-width: 55%;
+}
 .my_about_img{
     position: relative;
     width: 340px;
@@ -62,7 +68,7 @@ body{
 {
     display: flex;
         justify-content: space-between;
-        align-self: start;;
+        align-self: start;
         margin: 70px 40px 25px 40px;
         
 }
@@ -109,8 +115,23 @@ body{
     color: rgb(50, 38, 24);
     
 }
+.skill_types{
+    margin: 20px 1px 70px 15px;
+}
 .duration{
     margin: 5px;
+}
+.my_skills{
+    width: 100%;
+    
+    
+}
+.career{
+    margin-top: 25px;
+}
+.extra
+{
+    /* margin-top: auto; */
 }
 .skill_percent{
     display: flex;
@@ -140,8 +161,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-.skill_types{
-    margin-bottom: 30px;
+.skill{
+    margin-bottom: 25px;
 }
 
 .circle_img{
