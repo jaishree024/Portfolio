@@ -115,6 +115,15 @@ body{
     color: rgb(50, 38, 24);
     
 }
+.extra img{
+    width: 550px;
+}
+
+.extra{
+    margin-top: -97px;
+
+    }
+
 .skill_types{
     margin: 20px 1px 70px 15px;
 }
@@ -283,7 +292,9 @@ body{
     .two{
         height: 370px;
     }
-
+.extra{
+    margin-top: auto;
+}
     
 }
 
@@ -504,7 +515,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
     /* .about_two_right{
         margin-left: -30px;
     } */
-    
+    .aspirations{
+        margin-top: -25px;
+    }
 }
 
 
