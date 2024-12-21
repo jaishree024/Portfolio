@@ -115,15 +115,7 @@
     font-family: "Montserrat", sans-serif;
 
 }
-.line_one{
-    opacity: 0;
-}
-.line_two{
-    transform: rotate(45deg) translate(4px, 4px);
-}
-.line_three{
-    transform: rotate(-45deg);
-}
+
 
 
 
@@ -131,10 +123,7 @@
     .hamburger{
         display: block;
     }
-    .line_one{
-        opacity: 100;
-    }
-    .line_two{}
+       
 
     .nav ul{
         display: flex;

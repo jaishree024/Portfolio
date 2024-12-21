@@ -50,7 +50,6 @@ body{
     height: 340px;
     border-radius: 190px;
     object-fit: cover;
-    background-color: aqua;
     overflow: hidden;
     z-index: -1;
 }
