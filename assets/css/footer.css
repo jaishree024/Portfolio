@@ -2,6 +2,7 @@
     width: 46px;
     cursor: pointer;
     transition: transform 0.6 ease;
+    filter: invert(1) brightness(1);
 }
 .icon_img a img:hover{
     transform: scale(1.2);

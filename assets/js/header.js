@@ -11,5 +11,5 @@ burger.addEventListener('click',(e)=>{
     nav.classList.toggle('v-resp');
     nav.classList.toggle('h-nav-resp');
     circle.classList.toggle('v-respc');
-    
+    burger.classList.toggle('active');
 })

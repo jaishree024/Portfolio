@@ -57,7 +57,7 @@ body{
     transform: scale(0.6) translate(-733px, -1151px);
 }
 .about_two_right{
-    max-width: 55%;
+    
 }
 
 .three
@@ -114,6 +114,37 @@ body{
 .duration{
     margin: 5px;
 }
+.skill_percent{
+    display: flex;
+    flex-direction: row;
+}
+
+.learnt{
+    height: 9px;
+    border-radius: 5px;
+    background-color:rgb(50, 38, 24) ;
+    
+}
+.hcj{
+    width: 50%;
+}
+.to_learn{
+    height: 9px;
+    border-radius: 5px;
+    background-color: wheat;
+    width: 100%;
+}
+.c{
+    width: 30%;
+}
+.skill_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill_types{
+    margin-bottom: 30px;
+}
 
 .circle_img{
     height: 150px;
@@ -135,6 +166,9 @@ body{
     flex-direction: column;
     align-items: center;
 
+}
+.hobbie_name{
+    font-family: 'Montserrat';
 }
 .dancing img{
     transform: translateX(-61px) scale(0.8) translateY(-26px);
@@ -162,7 +196,7 @@ body{
     font-family:"Montserrat", sans-serif;
     font-size: 17px;
     font-weight: 300;
-    padding: 10px;
+    padding: 10px 40px ;
     color: rgb(50, 38, 24);
 }
 .four{
@@ -206,16 +240,12 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
 }
-@media only screen and(min-width:1330px) {
-    .institute{
-        
-    }
-    
-}
+
 
 @media only screen and (max-width:1330px) {
     .about_two_right{
-        max-width: 55%;
+        width: -webkit-fill-available;
+        margin: 3px 50px;
     }
     .left_seg_line{
         height: 135px;        
@@ -264,7 +294,7 @@ body{
     
     }
     .about_two_right{
-        max-width: 100%;
+        /* max-width: 100%; */
     }
        
 }
@@ -273,7 +303,7 @@ body{
         height:810px;
     }
     .about_two_right{
-        max-width: 100%;
+        /* max-width: 100%; */
     }
     
 }
@@ -352,6 +382,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
         }
         .aboutimgs img{
             width: 405px;
+        }
+        .about_two_right{
+            margin: initial;
         }
     
 
@@ -441,6 +474,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
     }
     .reading img {
         transform: scale(0.6) translate(-171px, -66px);
+    }
+    .about_two_right{
+        margin-left: -30px;
     }
     
 }

@@ -59,6 +59,10 @@
     font-weight: 350;
     padding: 10px;
     color: rgb(50, 38, 24);
+    cursor: pointer;
+}
+.two_right_block a{
+    text-decoration: none;
 }
 
 .two_right_para{
@@ -68,6 +72,7 @@
     margin-bottom: 20px;
     gap: 10px;
     color: rgb(50, 38, 24);
+    
 }
 
 

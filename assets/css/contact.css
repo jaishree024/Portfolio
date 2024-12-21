@@ -199,6 +199,9 @@ body{
         max-width: 75%;
         margin-top: -70px;
     }
+    .head{
+        line-height: 140px;
+    }
     
     
 }
@@ -213,7 +216,12 @@ body{
     }
     .contact_info{
         max-width: 79%;
+        padding: 30px 20px;
+        height: 300px;
         
+    }
+    .symbol_name{
+        font-size: 13px;
     }
     
 }
@@ -240,6 +248,10 @@ body{
     }
     .contact_info{
         width: 90%;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
     }
     
     
