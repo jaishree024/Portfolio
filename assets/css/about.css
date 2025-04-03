@@ -270,6 +270,8 @@ body{
 }
 
 
+
+
 @media only screen and (max-width:1330px) {
     .about_two_right{
         width: -webkit-fill-available;
@@ -422,6 +424,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
         .about_two_right{
             margin: initial;
         }
+        .education{
+            font-size: 58px;
+        }
     
 
 }
@@ -517,6 +522,9 @@ transform: translateX(-89px) scale(0.6) translateY(-64px)
     } */
     .aspirations{
         margin-top: -25px;
+    }
+    .institute{
+        font-size: 20px;
     }
 }
 

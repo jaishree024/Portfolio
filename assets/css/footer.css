@@ -1,64 +1,60 @@
-.icon_img a img{
-    width: 46px;
-    cursor: pointer;
-    transition: transform 0.6 ease;
-    filter: invert(1) brightness(1);
+.icon_img a img {
+  width: 46px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  filter: invert(1) brightness(1);
 }
-.icon_img a img:hover{
-    transform: scale(1.2);
+.icon_img a img:hover {
+  transform: scale(1.2);
 }
 
-.icon{
-    display: flex;
-    flex-direction: row;
+.icon {
+  display: flex;
+  flex-direction: row;
 }
-.footer_block{
-    background-color: rgb(87 69 47);
-    color: wheat;
-    font-weight: 500;
-    margin-top: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
-
+.footer_block {
+  background-color: rgb(87 69 47);
+  color: wheat;
+  font-weight: 500;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-.footer_left{
-    padding: 23px;
-    max-width: 295px;
-    /* border: 2px solid; */
-    font-size: 14px;
-    font-family: 'Montserrat';
-    text-align: center;
+.footer_left {
+  padding: 23px;
+  max-width: 295px;
+  /* border: 2px solid; */
+  font-size: 14px;
+  font-family: 'Montserrat';
+  text-align: center;
 }
-.footer_right{
-    padding: 23px;
-    max-width: 300px;
-    /* border: 2px solid; */
-    font-size: 14px;
-    font-family: 'Montserrat';
-    text-align: center;
+.footer_right {
+  padding: 23px;
+  max-width: 300px;
+  /* border: 2px solid; */
+  font-size: 14px;
+  font-family: 'Montserrat';
+  text-align: center;
 }
-@media only screen and (max-width:500px) {
-    .footer_left{
-        font-size: 10px;
-        max-width: 220px;
-    }
-    .footer_right{
-        font-size: 10px;
-    }
-    .icon_img a img{
-        width: 36px;
-    }
+@media only screen and (max-width: 500px) {
+  .footer_left {
+    font-size: 10px;
+    max-width: 220px;
+  }
+  .footer_right {
+    font-size: 10px;
+  }
+  .icon_img a img {
+    width: 36px;
+  }
 }
 @media only screen and (max-width: 360px) {
-    .footer_left{
-
-        max-width: 135px;
-    }
-    .icon_img a img{
-        width: 32px;
-    }
-    
+  .footer_left {
+    max-width: 135px;
+  }
+  .icon_img a img {
+    width: 32px;
+  }
 }

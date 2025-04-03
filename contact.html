@@ -71,7 +71,7 @@
 
                 </div>
                 <div class="button">
-                    <a href=""><button>SEND</button></a>
+                    <button onclick="showModal(event)">SEND</button>
                 </div>
 
 
@@ -86,7 +86,7 @@
                         </div>
                         <div class="medium">
                             <div class="symbol"></div>
-                            <div class="symbol_name">lorem@gmail.com</div>
+                            <div class="symbol_name">jaishree.go24@gmail.com</div>
                         </div>
                         <div class="medium">
                             <div class="symbol"></div>
@@ -111,6 +111,14 @@
         </div>
 
     </section>
+    <div class="overlay" id="overlay" onclick="hideModal()"></div>
+
+    <!-- Modal -->
+    <div class="response" id="thank-you-card">
+        <span class="close-btn" id="close-btn" onclick="hideModal()">&times;</span>
+        <div class="thanks">Thank You for your response</div>
+        <div class="get_back">Will get back to you soon...</div>
+    </div>
 
     <section class="footer">
         <div class="footer_block">
@@ -123,18 +131,32 @@
                 </div>
                 <div class="footer_right_icons">
                     <div class="icon">
-                        <div class="icon_img"><a href=""><img src="./assets/imgs/footer/linkedin icon.png" alt=""></a>
+                        <div class="icon_img"><a
+                                href="https://www.linkedin.com/in/jaishree-goyal-453843318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                target="_blank"><img src="./assets/imgs/footer/linkedin icon.png" alt=""></a>
                         </div>
                         <div class="icon_img"><a href=""><img src="./assets/imgs/footer/insta logo.png" alt=""></a>
                         </div>
-                        <div class="icon_img"><a href=""><img src="./assets/imgs/footer/email logo.png" alt=""></a>
+                        <div class="icon_img"><a href="https://www.instagram.com/jaishree_024" target="_blank"><img
+                                    src="./assets/imgs/footer/email logo.png" alt=""></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script>
+        function showModal(event) {
+            event.preventDefault(); // Prevent form submission
+            document.getElementById("thank-you-card").classList.add("show");
+            document.getElementById("overlay").classList.add("show");
+        }
 
+        function hideModal() {
+            document.getElementById("thank-you-card").classList.remove("show");
+            document.getElementById("overlay").classList.remove("show");
+        }
+    </script>
     <script src="./assets/js/header.js"></script>
 </body>
 
