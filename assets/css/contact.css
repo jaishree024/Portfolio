@@ -260,6 +260,9 @@ body {
   .head {
     line-height: 140px;
   }
+  .response {
+    min-width: 75%;
+  }
 }
 
 @media only screen and (max-width: 530px) {
